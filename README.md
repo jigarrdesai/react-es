@@ -1,10 +1,10 @@
 # react-es
 
-Step -0 : Create packagae.json
+Step -0 : Create packagae.json </b>
 
 npm init -y
 
-Step -1 : Install dependencies
+Step -1 : Install dependencies </b>
 
 npm install webpack --save-dev
 npm install webpack-dev-server --save-dev
@@ -12,7 +12,7 @@ npm install babel-core babel-loader babel-polyfill babel-preset-es2015 babel-pre
 
 npm install babel-preset-react react react-dom react-bootstrap --save-dev
 
-Step -2 : Create webpack.config.js
+Step -2 : Create webpack.config.js </b>
 
 module.exports = {
   entry : ['babel-polyfill','./app/index.js'],
@@ -37,7 +37,7 @@ module.exports = {
 }
 
 
-Step -3 : Add babel preset for es6,es7,es8 in package.json
+<b>Step -3 : Add babel preset for es6,es7,es8 in package.json</b>
 
 ,
 "babel": {
@@ -55,5 +55,5 @@ import React from 'react';</br>
 import ReactDOM from 'react-dom'</br>
 
 ReactDOM.render( </br>
-  <div> React Application </div>,document.getElementById('root') </br>
+  <div> React Application! </div>,document.getElementById('root') </br>
   ); </br>

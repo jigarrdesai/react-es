@@ -44,6 +44,16 @@ Step -3 : Add babel preset for es6,es7,es8 in package.json
   "presets": [
     "es2015",
     "es2016",
-    "es2017"
+    "es2017",
+    "react"
   ]
 },
+
+<b> Step -4 : Add react </b>
+
+import React from 'react';</br>
+import ReactDOM from 'react-dom'</br>
+
+ReactDOM.render( </br>
+  <div> React Application </div>,document.getElementById('root') </br>
+  ); </br>

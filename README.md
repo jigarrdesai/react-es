@@ -1,10 +1,10 @@
 # react-es
 
-Step -0 : Create packagae.json </b>
+<b> Step -0 : Create packagae.json </b>
 
 npm init -y
 
-Step -1 : Install dependencies </b>
+<b> Step -1 : Install dependencies </b>
 
 npm install webpack --save-dev
 npm install webpack-dev-server --save-dev
@@ -12,7 +12,7 @@ npm install babel-core babel-loader babel-polyfill babel-preset-es2015 babel-pre
 
 npm install babel-preset-react react react-dom react-bootstrap --save-dev
 
-Step -2 : Create webpack.config.js </b>
+<b> Step -2 : Create webpack.config.js </b>
 
 module.exports = {
   entry : ['babel-polyfill','./app/index.js'],
